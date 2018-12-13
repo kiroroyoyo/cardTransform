@@ -16,7 +16,7 @@ var cardAnimate = {
     this.frondCard = document.getElementById(frond);
     this.backCard = document.getElementById(back);
     document.addEventListener("touchstart", this.onDocumentMouseDown.bind(self));
-    document.addEventListener("touchmove", this.onDocumentMouseMove.bind(self), {passive: false});
+    document.addEventListener("touchmove", this.onDocumentMouseMove.bind(self));
     document.addEventListener("touchend", this.onDocumentMouseUp.bind(self));
   },
   animate: function(){
@@ -67,6 +67,7 @@ var cardAnimate = {
 
   },
   onDocumentMouseMove : function(e){
+    
     e = e.touches[0];
 
     
