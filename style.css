@@ -42,7 +42,7 @@ body{
 .card-frond .card{
 	width: 60vw;
 	height: 96vw;
-	background-color: rgba(255,255,255,.9);
+	background-color: rgba(255,255,255, .9);
 	display: inline-block;
 	border-radius: 10px;
 	margin: 0 4vw;
